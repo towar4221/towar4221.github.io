@@ -1,0 +1,73 @@
+h1
+ {
+    text-align: center
+}
+
+#red {
+    box-shadow: 5px 3px;
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    left: 450px;
+}
+
+#green {
+    box-shadow: 5px 3px;
+    position: absolute;
+    background-color:green;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    left: 750px;
+}
+
+#more {
+    box-shadow: 5px 3px;
+    position: absolute;
+    background-color: lightblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    left: 1050px;
+}
+input {
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+button {
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    position: absolute;
+    top: 300px;
+    left: 850px;
+}
+
+body {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+button:hover {
+    background: linear-gradient(to left, #F6EFD2, #CEAD78);
+}
+img{
+    transition: 5s ease;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    height: 100px;
+    width: 500px;
+}
+
+img:hover{
+    transition: 5s ease;  
+    height: 150px;
+    width: 300px;
+    
+}
+img:active{
+    transition: 2s ease;  
+    transform: rotate(180deg);
+    
+}
