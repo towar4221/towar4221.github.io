@@ -1,79 +1,182 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
 
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Test site</title>
+</head>
 
-    <div id="bg">
-      <header>
-        <div class="container" id="header">
-          <div class="row">
-            <div class="col-6">
-               <a class="navbar-brand" href="#"> <img src="img/logo.png"> </a>
-            </div>
-              <div class="col-6">         
-                  <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Приемущества</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Галерея</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-            </div>
-          </div>  
-        
+<body>
 
-      </header>
-      <section id="banner" class="row">
-          <div class="col-6">
-            <h1>САЙТ-ВИЗИТКА</h1>
-          - одна или несколько страниц в интернете,
-          <br>
-          распаложенных на одном доменном имени,
-          <br>
-          представляющая общую информацию о владельце,
-          <br>
-          основной перечень услуг, товаров, контактные данные
-          <br>
-          и раздел с ответами на основные вопросы.
-
-          <i class="fab fa-apple"></i>
-        </div>
-
-        <div class="col-6">
-         
-      </div>
-      </section>
-    </div>
-  </div>
-      <section id="info"></section>
-
-      <footer></footer>
+	<div class="bg">
+		<br>
+		<header>
+			<div class="container" id="header">
+				<div class="row">
+					<div class="col-6"><img src="img/logo.png" id="logo"></div>
+					<div class="col-6">
+						<nav class="navbar navbar-expand-lg">
+							<ul class="navbar-nav mr-auto row">
+								<li class="nav-item col-5">
+									<a class="nav-link" href="#" style="font-size: 20pt; color: #000;">Преимущества</a>
+								</li>
+								<li class="nav-item col-3">
+									<a class="nav-link" href="#" style="font-size: 20pt; color: #000;">Галерея</a>
+								</li>
+								<li class="nav-item col-4">
+									<a class="nav-link" href="#" style="font-size: 20pt; color: #000;">Contact us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="banner">
+			<div class="container">
+				<div class="row" id="ban">
+					<div id="description" class="col-6">
+						<h1>САЙТ-ВИЗИТКА</h1>
+						<p style="text-align: left;">- одна или несколько страниц в интернете,
+							расположенных на одном доменном имени,
+							предуставляющая общую информацию о владельце,
+							основной перечень услуг, товаров, контактные данные
+							и раздел с ответами на основные вопросы
+						</p>
+						<div class="container" style="margin-top: 50px;">
+							<i class="fab fa-5x fa-apple"></i>
+							<i class="fab fa-5x fa-android"></i>
+							<i class="fab fa-5x fa-windows"></i>
+						</div>
+					</div>
+					<div class="col-6">
+						<img src="img/ipad.png" id="pod">
+					</div>
+				</div>
+			</div>
+			<br>
+			be
+		</section>
+	</div>
 
 
+	<section id="info" style="margin-top: 100px;">
+		<h2 id="opt">Характеристики</h2>
+		<p style=" width: 44%; text-align: center; font-size: 18pt; margin-left: 28%;">В этом разделе мы расскажем вам,
+			основные характеристики данного сайта-визитки</p>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
+		<div class="container">
+			<br>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-4">
+					<i id="phone" class="fas fa-tablet"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>Адаптивность</h3>
+						<p>Сайт подходит под любое <br>устройство и разрешение экрана.</p>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<i id="lemon" class="far fa-lemon"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>Все элементы в PDS</h3>
+						<p>Удобный для верстки сайт. Все <br>элементы есть в PDS формате.</p>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<i id="folder" class="far fa-folder"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>Потрясаюзие иконки</h3>
+						<p>В приложении к файлу можно <br>найти все необходимые иконки. <br></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<i id="code" class="fas fa-code"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>HTML & CSS</h3>
+						<p>Сайт легко сверстать с <br>помощью HTML и CSS.</p>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<i id="konvert" class="far fa-envelope"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>Обратная связь</h3>
+						<p>Сайт имеет раздел с обратной <br>связью.</p>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<i id="bookmark" class="far fa-bookmark"></i>
+					<div class="d-inline-block" style="margin-left: 10pt;">
+						<h3>Интерестно верстать</h3>
+						<p>Сайт имеет элементы, которые <br>будет интерестно верстать. <br></p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+
+		<br>
+	</section>
+	<footer class="page-footer font-small pt-4" style="background-color: black;">
+
+		<h2 style="color: blue; text-align: center; margin-top: 40pt;">Свяжитесь с нами</h2>
+		<h4 style="color: red; text-align: center; margin-top: 10pt;">Оставьте свой e-mail адрес и мы свяжемся с вами в
+			ближайшее время.</h4>
+
+			<br>
+			<br>
+			<div class="conteiner" id="footer">
+				<input type="email" placeholder="    Enter your email to update"
+					style="width: 500px; height: 40px; border-radius: 10px;">
+				<button type="button" id="btn-email" class="btn btn-danger">SUBMIT</button>
+			</div>
+			<br>
+			<br>
+			<div id="citys">
+				HALOVIETNAM LTS
+				<br>
+				66, Dang Van ngu, Dong Da
+				<br>
+				Hanoi, Vietnami
+			</div>
+
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>

@@ -1,9 +1,79 @@
-
-#bg{
-    background-image: url(img/bg.jpg);
+.bg {
+    background-image: url("img/bg.jpg");
+    
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#ban {
+    margin-top: 100pt;
+}
+#description{
+    margin-left: 0pt;
+    margin-top: 100pt;
+}
+#pod{
+    height: 500pt;
+}
+#header {
+    margin-top: 30px;
+}
+#opt {
+    text-align: center;
 }
 
-#text-vizitka{
-    margin-left: ;
-    margin-top: ;
+#phone{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#lemon{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#folder{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#code{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#konvert{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#bookmark{
+    font-size: 50px;
+    position: relative;
+    
+}
+
+#footer{
+    text-align: center;
+}
+
+#citys{
+    text-align: center;
+    color: white;
+}
+
+#banner{
+    margin-top: -100px;
+}
+
+#header{
+    position: relative;
+    top: 15px;
 }
