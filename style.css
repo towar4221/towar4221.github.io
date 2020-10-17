@@ -1,4 +1,16 @@
-.bg {
+
+
+.ico {
+    font-size: 50px;
+}
+
+nav a {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+#bg{
     background-image: url("img/bg.jpg");
     
     height: 100%;
@@ -6,71 +18,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
-#ban {
-    margin-top: 100pt;
-}
-#description{
-    margin-left: 0pt;
-    margin-top: 100pt;
-}
-#pod{
-    height: 500pt;
-}
-#header {
-    margin-top: 30px;
-}
-#opt {
-    text-align: center;
-}
-
-#phone{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#lemon{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#folder{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#code{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#konvert{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#bookmark{
-    font-size: 50px;
-    position: relative;
-    
-}
-
-#footer{
-    text-align: center;
-}
-
-#citys{
-    text-align: center;
-    color: white;
-}
-
-#banner{
-    margin-top: -100px;
 }
 
 #header{
@@ -78,15 +25,66 @@
     margin-top: auto;
     position: relative;
     top: 15px;
-}
-
-#banner{
-    height: 800px;
-    margin-bottom: 300px;
+    height: 500px;
 }
 
 #info{
 
-    height: 800px;
+    height: 900px;
+}
+
+#im1_g img {
+	height: 360px;
+	width: 100%;
+	margin-bottom: 45px;
+	margin-left: 100px;
+}
+#im2_g img {
+    height: 360px;
+	width: 100%;
+	margin-bottom: 45px;
+	margin-left: 100px;
+}
+
+
+
+@media (max-width: 425px) {
+	#first_block {
+		text-align: center;
+	}
+
+	#im1_g img {
+	height: 360px;
+	width: 100%;
+	margin-bottom: 45px;
+	margin-left: 0;
+	}
+
+	#im2_g img {
+    	height: 360px;
+		width: 100%;
+		margin-bottom: 45px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1000px) {
+	#im1_g img {
+	margin-left: 0;
+	}
+
+	#im2_g img {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	#im1_g img {
+	margin-left: 45px;
+	}
+
+	#im2_g img {
+		margin-left: 45px;
+	}
 }
 
