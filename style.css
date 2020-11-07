@@ -95,9 +95,9 @@ nav a {
 	margin-right: 30px;
 }
 
-#first_link1{
+ #first_link1{
 	margin-left: 390px;
-}
+} 
 
 #inputt{
 	height: 50%;
@@ -106,20 +106,19 @@ nav a {
 .fa-apple{
 	font-size: 50px;
 }
-]
+
 
 @media (min-width: 320px) and (max-width: 540px) {
 	#carouselExampleSlidesOnly {
 		width: 100%;
 	}
 
-	#first_link1{
-		margin-left: 0px;
-	}
+
 	
 	#imgs{
 		margin-left: 75px;
 	}
+	
 
 }
 
@@ -140,7 +139,9 @@ nav a {
 	#ipad{
 		margin-top: 30px;
 	}
-
+	#first_link1{
+		margin-left: 0px;
+	}
 
 }
 
